@@ -41,7 +41,7 @@
     UBOOT_VERSION="imx6-cuboxi"
 
   # Configuration for u-boot
-    UBOOT_CONFIG="mx6_cubox-i_config matrix"
+    UBOOT_CONFIG="mx6_cubox-i_config matrix wandboard_dl_config wandboard_quad_config"
 
   # Target Configfile for u-boot
     UBOOT_CONFIGFILE=""

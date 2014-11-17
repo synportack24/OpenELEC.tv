@@ -74,6 +74,10 @@ make_target() {
         TARGET_NAME="cuboxi"
       elif [ "$UBOOT_TARGET" = "matrix" ]; then
         TARGET_NAME="matrix"
+      elif [ "$UBOOT_TARGET" = "wandboard_dl_config" ]; then
+        TARGET_NAME="wandboard_dl"
+      elif [ "$UBOOT_TARGET" = "wandboard_quad_config" ]; then
+        TARGET_NAME="wandboard_q"
       fi
 
       [ -f u-boot.img ] && mv u-boot.img u-boot-$TARGET_NAME.img

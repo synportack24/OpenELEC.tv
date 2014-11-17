@@ -35,7 +35,7 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 #if [ -z "$1" -o -z "$2" ]; then
-if [ -z "$1" -o -z "$2" ] || [ "$1" != "cuboxi" -a "$1" != "matrix" ]; then
+if [ -z "$1" -o -z "$2" ] || [ "$1" != "cuboxi" -a "$1" != "matrix" -a "$1" != "wandboard_dl" -a "$1" != "wandboard_q" ]; then
   clear
   echo "##############################################################"
   echo "# please execute with your target system and drive as option #"
